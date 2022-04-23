@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    box-sizing: border-box;
+  }  
+ .container{
+      width: 100%;
+      height: 100vh;
+      background-color:grey;
+      padding: 50px 8%;
+      position: relative;
+      font-weight: 600; 
+      background-image: url(images/isi.jpg);
+  } 
+  .container h1{
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: oblique;
+    color: #fff;
+    padding-left: 35%;
+    
+  }
+ /* nav{
+      background-image: url(images/black.png) ;
+      background-size: cover;
+      background-position: right;
+      padding: 20% 15% 15% 15%;
+      position: absolute;
+      
+      width: 20px;
+      height: 20px;
+  }  */
+  /* nav{
+   background-image: url(images/isi.jpg) ;
+   background-size: contain;
+   background-position: 100%;
+   opacity: 0.8;
+ } */
+  .logo{
+      width: 100px;
+      margin-bottom: 40px;
+  }
+  nav ul li{
+     list-style: none;
+     margin: 10px 0;
+  }
+  nav ul li a{
+     color: #fff;
+     text-decoration: solid;
+  }
+  .contact-me{
+     position: absolute;
+     top: 80px;
+     right: 8%;
+     display: flex;
+     align-items: center;
+     color: black;
+     text-decoration: none;
+  }
+  .contact-me img{
+    width: 20px;
+    margin-left: 20px;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+    opacity: .6;
+  }
+  .row h1{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: brown;
+  }
+  .row span{
+    color: blue;
+    margin-bottom: 50px;
+    margin-right: 10px;
+ 
+  }
